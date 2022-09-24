@@ -1,12 +1,12 @@
 [book]
-name = "Command-Line Rust"
+title = "Command-Line Rust"
 isbn = "978-1-098-10943-1"
 total_page_numbers = 361
 
 [[book.updates]]
-current_page = 51
+read_up_to = 51
 updated_at = 2022-09-20T06:32:55
 
 [[book.updates]]
-current_page = 43
+read_up_to = 43
 updated_at = 2022-09-19T08:11:09
