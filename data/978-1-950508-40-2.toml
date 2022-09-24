@@ -1,0 +1,12 @@
+[book]
+title = "The DevOps Handbook"
+isbn = "978-1-950508-40-2"
+total_page_numbers = 421
+
+[[book.updates]]
+read_up_to = 32
+updated_at = 2022-09-24T14:31:42
+
+[[book.updates]]
+read_up_to = 18
+updated_at = 2022-09-23T03:10:05
