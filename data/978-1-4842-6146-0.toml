@@ -1,0 +1,8 @@
+[book]
+title = "Building a Career in Software"
+isbn = "978-1-4842-6146-0"
+total_page_numbers = 239
+
+[[book.updates]]
+read_up_to = 37
+updated_at = 2022-10-20T22:37:33
