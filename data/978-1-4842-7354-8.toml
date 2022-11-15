@@ -2,3 +2,7 @@
 title = "Pro Go"
 isbn = "978-1-4842-7354-8"
 total_page_numbers = 1069
+
+[[book.updates]]
+read_up_to = 14
+updated_at = 2022-11-15T23:55:05
