@@ -1,0 +1,8 @@
+[book]
+title = "Network Programming with Go"
+isbn = "978-1-7185-0088-4"
+total_page_numbers = 353
+
+[[book.updates]]
+read_up_to = 41
+updated_at = 2022-11-23T19:15:02
