@@ -4,5 +4,9 @@ isbn = "978-1-942788-33-1"
 total_page_numbers = 235
 
 [[book.updates]]
+read_up_to = 24
+updated_at = 2022-12-10T21:07:15
+
+[[book.updates]]
 read_up_to = 2
 updated_at = 2022-12-07T02:54:03
