@@ -2,3 +2,7 @@
 title = "Learning go"
 isbn = "978-1-492-07721-3"
 total_page_numbers = 340
+
+[[book.updates]]
+read_up_to = 6
+updated_at = 2022-12-21T18:04:21
