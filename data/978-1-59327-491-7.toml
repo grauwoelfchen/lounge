@@ -2,3 +2,7 @@
 title = "Realm of Racket"
 isbn = "978-1-59327-491-7"
 total_page_numbers = 283
+
+[[book.updates]]
+read_up_to = 19
+updated_at = 2023-01-09T18:37:11
