@@ -2,3 +2,7 @@
 title = "Terraform: Up & Running"
 isbn = "978-1-492-04690-5"
 total_page_numbers = 323
+
+[[book.updates]]
+read_up_to = 3
+updated_at = 2023-01-16T01:11:57
