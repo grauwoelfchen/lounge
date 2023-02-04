@@ -1,8 +1,10 @@
 # Lounge
 
+
 ## Requirements
 
 * Racket
+
 
 ## Build
 
@@ -10,6 +12,15 @@
 # to build the `bar` CLI application
 % make build
 ```
+
+
+## Test
+
+```zsh
+# use rackunit
+% make test
+```
+
 
 ## Usage
 

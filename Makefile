@@ -1,3 +1,7 @@
+test:
+	@raco test --direct test/test.rkt
+.PHONY: test
+
 build:
 	raco exe -o ./dst/bar main.rkt
 .PHONY: build
