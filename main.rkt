@@ -10,22 +10,22 @@
         (date->string (seconds->date (current-seconds))))
 |#
 
-(struct update (read_up_to updated) #:transparent)
+(struct an-update (read_up_to updated) #:transparent)
 (struct book (title isbn total_page_numbers update) #:transparent)
 
 ;; creates a book. this takes a hasheq object represents book entry.
 ;; a book struct like looks like:
 ;;   (book
 ;;     "title" "isbn" total_page_numbers
-;;     (update read_up_to #<datetime updated_at>))
+;;     (an-update read_up_to #<datetime updated_at>))
 (define (create-book br)
   (book (hash-ref br 'title)
         (hash-ref br 'isbn)
         (hash-ref br 'total_page_numbers)
         (if (hash-has-key? br 'updates)
           (let ([lu (first (hash-ref br 'updates))])
-            (update (hash-ref lu 'read_up_to)
-                    (hash-ref lu 'updated_at)))
+            (an-update (hash-ref lu 'read_up_to)
+                       (hash-ref lu 'updated_at)))
           empty)))
 
 ;; reads files in the data directory and generates a list contains all books
