@@ -2,3 +2,7 @@
 title = "The Curious Incident of the Dog in the Night-Time"
 isbn = "978-0-099-47043-4"
 total_page_numbers = 268
+
+[[book.updates]]
+read_up_to = 10
+updated_at = 2023-03-15T23:54:28
