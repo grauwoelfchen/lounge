@@ -60,3 +60,13 @@
  (an-update 240 #<datetime 2022-12-15T14:38:34>))
 ...
 ```
+
+
+## License
+
+`BSD-3-Clause`
+
+```txt
+Lounge
+Copyright (c) 2023 Yasuhiro Яша Asaka
+```
