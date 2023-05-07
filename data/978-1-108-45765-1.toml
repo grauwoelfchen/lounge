@@ -1,0 +1,22 @@
+[book]
+title = "English Grammar In Use"
+isbn = "978-1-108-45765-1"
+edition = 5
+total_page_numbers = 291
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "random" # or sequential
+
+[book.status]
+is_focused = false
+is_finished = false
+
+[[book.updates]]
+read_range = { begin = 28, end = 29 } # unit 14
+updated_at = 2023-05-08T00:32:27
+
+[[book.updates]]
+read_range = { begin = 12, end = 13 } # unit 6
+updated_at = 2023-05-07T22:01:07
