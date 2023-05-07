@@ -1,7 +1,17 @@
 [book]
 title = "The Curious Incident of the Dog in the Night-Time"
 isbn = "978-0-099-47043-4"
+edition = 1
 total_page_numbers = 268
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
 
 [[book.updates]]
 read_up_to = 242
