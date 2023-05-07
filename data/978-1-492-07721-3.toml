@@ -1,7 +1,17 @@
 [book]
 title = "Learning go"
 isbn = "978-1-492-07721-3"
+edition = 1
 total_page_numbers = 340
+format = "print"
+
+[book.reading_approach]
+number_of_times = 2
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
 
 [[book.updates]]
 read_up_to = 276
