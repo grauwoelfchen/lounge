@@ -7,7 +7,7 @@
 
 (require "data.rkt")
 
-(define bar-width 50)
+(define bar-width 45)
 
 (for-each (lambda (b)
             ;; skip "random" reading order books (for now)
