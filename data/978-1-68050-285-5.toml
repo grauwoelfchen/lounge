@@ -1,4 +1,14 @@
 [book]
 title = "Programming Elm"
 isbn = "978-1-68050-285-5"
+edition = 1
 total_page_numbers = 270
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
