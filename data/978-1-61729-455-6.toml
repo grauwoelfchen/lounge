@@ -1,7 +1,17 @@
 [book]
 title = "Rust in Action"
 isbn = "978-1-61729-455-6"
+edition = 1
 total_page_numbers = 417
+format = "print"
+
+[book.reading_approach]
+number_of_times = 2
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
 
 [[book.updates]]
 read_up_to = 23
