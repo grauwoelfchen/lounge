@@ -1,0 +1,14 @@
+[book]
+title = "Quiet"
+isbn = "978-0-141-02919-1"
+edition = 1
+total_page_numbers = 266
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
