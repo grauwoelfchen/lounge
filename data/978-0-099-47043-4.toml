@@ -10,8 +10,12 @@ number_of_times = 1
 order = "sequential" # or random
 
 [book.status]
-is_focused = true
-is_finished = false
+is_focused = false
+is_finished = true
+
+[[book.updates]]
+read_up_to = 268
+updated_at = 2023-05-08T21:33:40
 
 [[book.updates]]
 read_up_to = 242
