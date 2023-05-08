@@ -1,0 +1,14 @@
+[book]
+title = "His Dark Materials Northern Lights"
+isbn = "978-1-407186-10-8"
+edition = 1
+total_page_numbers = 397
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
