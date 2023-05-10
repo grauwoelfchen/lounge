@@ -12,3 +12,7 @@ order = "sequential" # or random
 [book.status]
 is_focused = true
 is_finished = false
+
+[[book.updates]]
+read_up_to = 25
+updated_at = 2023-05-11T01:41:04
