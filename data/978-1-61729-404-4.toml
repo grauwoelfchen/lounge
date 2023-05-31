@@ -1,0 +1,18 @@
+[book]
+title = "Elm in Action"
+isbn = "978-1-61729-404-4"
+edition = 1
+total_page_numbers = 290
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential"
+
+[book.status]
+is_focused = true
+is_finished = false
+
+[[book.updates]]
+read_up_to = 14
+updated_at = 2023-05-30T11:30:26
