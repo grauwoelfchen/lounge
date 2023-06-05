@@ -1,0 +1,18 @@
+[book]
+title = "Getting Real"
+isbn = "978-0-578-01281-0"
+edition = 1
+total_page_numbers = 187
+format = "print"
+
+[book.reading_approach]
+number_of_times = 2
+order = "random"
+
+[book.status]
+is_focused = false
+is_finished = false
+
+[[book.updates]]
+read_range = { begin = 1, end = 10 }
+updated_at = 2023-06-06T02:14:29
