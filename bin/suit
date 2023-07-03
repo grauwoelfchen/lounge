@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -euo pipefail;
+
+type fzf 1>/dev/null 2>&1
+if [ $? -ne 0 ]; then
+  echo "fzf is not installed" 1>&2
+  exit 1
+fi
+
+ls data/*.toml | \
+xargs head -3 | \
+awk '{
+  if ($1 ~ /^title|^isbn/) {
+    s=substr($0, index($0, $3));
+    gsub("\"", "", s);
+    print s;
+  }
+}' | \
+awk '!(NR % 2) {
+  print "("$0", "p")"
+} {
+  p = $0
+}' | \
+fzf
