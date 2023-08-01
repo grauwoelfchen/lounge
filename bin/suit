@@ -9,6 +9,7 @@ if [ $? -ne 0 ]; then
 fi
 
 ls data/*.toml | \
+grep -v template | \
 xargs head -3 | \
 awk '{
   if ($1 ~ /^title|^isbn/) {
