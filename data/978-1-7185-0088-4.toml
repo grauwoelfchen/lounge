@@ -1,7 +1,17 @@
 [book]
 title = "Network Programming with Go"
 isbn = "978-1-7185-0088-4"
+edition = 1
 total_page_numbers = 353
+format = "print"
+
+[book.reading_approach]
+number_of_times = 2
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
 
 [[book.updates]]
 read_up_to = 41
