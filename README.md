@@ -48,8 +48,10 @@ Reading [====-----------------------------------------] 25/270 9.26%
 
 ### Suit
 
-How to find an ISBN code with partial letters on a book title.
-See the `suit` shell script.
+A small shell script that finds the target file (ISBN code) with partial
+letters input of a book title, and opens it via `$EDITOR`.
+
+This requires the fuzzy finder `fzf`. See the `bin/suit`.
 
 ```zsh
 # make sure if you configure the local path in .autoenv (see .autoenv.sample)
@@ -66,7 +68,7 @@ See the `suit` shell script.
 % suit
 ```
 
-It's equivalent with:
+The filtering part is equivalent with:
 
 ```zsh
 % ls data/*.toml | \

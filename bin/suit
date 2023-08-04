@@ -8,19 +8,35 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-ls data/*.toml | \
-grep -v template | \
-xargs head -3 | \
-awk '{
-  if ($1 ~ /^title|^isbn/) {
-    s=substr($0, index($0, $3));
-    gsub("\"", "", s);
-    print s;
-  }
-}' | \
-awk '!(NR % 2) {
-  print "("$0", "p")"
-} {
-  p = $0
-}' | \
-fzf
+data="$(dirname $(dirname $0))/data"
+
+pair=$(\
+  ls $data/*.toml | \
+  grep -v template | \
+  xargs head -3 | \
+  awk '{
+    if ($1 ~ /^title|^isbn/) {
+      s=substr($0, index($0, $3));
+      gsub("\"", "", s);
+      print s;
+    }
+  }' | \
+  awk '!(NR % 2) {
+    print "("$0", "p")"
+  } {
+    p = $0
+  }' | \
+  fzf
+)
+
+if [ "${pair}" = "" ]; then
+  exit 0
+fi
+
+file=$(\
+  echo -n "${pair}" | \
+  sed 's/[(),]//g' | \
+  awk '{ print $1".toml" }'
+)
+
+eval "${EDITOR} \"${data}/${file}\""
