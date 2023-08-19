@@ -1,0 +1,18 @@
+.\" Lounge Suit
+.TH man 1 "19 Aug 2023" "1.0" "General Commands Manual"
+.SH NAME
+suit — The command finds and opens a matched reading log file
+.SH SYNOPSIS
+suit
+.SH DESCRIPTION
+suit is a command helps to find and directly open a matched reading log file
+from the \fBdata\fP directory.
+suit requires \fBfzf\fP on your shell.
+.SH OPTIONS
+suit does not take any argument for now.
+.SH FILES
+\fBdata/*.toml\fP
+.SH SEE ALSO
+bar(1)
+.SH AUTHOR
+Yasha (yasuhiro.asaka@grauwoelfchen.net)

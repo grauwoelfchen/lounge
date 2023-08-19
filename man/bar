@@ -1,0 +1,17 @@
+.\" Lounge Bar
+.TH man 1 "19 Aug 2023" "1.0" "General Commands Manual"
+.SH NAME
+bar — The command shows the reading progress
+.SH SYNOPSIS
+bar
+.SH DESCRIPTION
+bar is a command prints the reading progress based on TOML files under the
+\fBdata\fP directory.
+.SH OPTIONS
+bar does not take any argument for now.
+.SH FILES
+\fBdata/*.toml\fP
+.SH SEE ALSO
+suit(1)
+.SH AUTHOR
+Yasha (yasuhiro.asaka@grauwoelfchen.net)
