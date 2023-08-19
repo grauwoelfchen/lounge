@@ -1,0 +1,14 @@
+[book]
+title = "Learning the vi and Vim Editors"
+isbn = "978-1-492-07880-7"
+edition = 8
+total_page_numbers = 409
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential" # or random
+
+[book.status]
+is_focused = false
+is_finished = false
