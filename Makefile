@@ -7,8 +7,11 @@ test:
 	@raco test --direct test/test.rkt
 .PHONY: test
 
-build:
-	raco exe -o $(PWD)/dst/bar src/main.rkt
+build-bar:
+	raco exe -o $(PWD)/dst/bar src/bar.rkt
+.PHONY: build-bar
+
+build: build-bar
 .PHONY: build
 
 clean:
