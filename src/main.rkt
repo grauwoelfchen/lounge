@@ -30,4 +30,4 @@
           (filter
             ;; prints only `is_focused` entries by default
             (lambda (b) (status-is_focused (book-status b)))
-            (read-data "./data")))
+            (read-data (build-path (current-directory) "data"))))

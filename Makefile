@@ -8,9 +8,9 @@ test:
 .PHONY: test
 
 build:
-	raco exe -o ./dst/bar main.rkt
+	raco exe -o $(PWD)/dst/bar src/main.rkt
 .PHONY: build
 
 clean:
-	@rm -f ./dst/bar
+	@rm -f $(PWD)/dst/bar
 .PHONY: clean

@@ -1,7 +1,7 @@
 #lang racket/base
 
 (require gregor)
-(require rackunit "../data.rkt")
+(require rackunit "../src/data.rkt")
 
 ;; testing for the data module
 (define data-tests
