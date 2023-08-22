@@ -6,6 +6,7 @@ Tools and data of my book reading logs.
 
 * bar
 * suit
+* sofa
 
 
 ## Requirements
@@ -95,6 +96,10 @@ awk '!(NR % 2) {
 }' | \
 fzf
 ```
+
+### Sofa
+
+`sofa` does nothing *so fa* r (TBD).
 
 
 ## License

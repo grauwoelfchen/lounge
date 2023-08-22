@@ -11,7 +11,11 @@ build-bar:
 	raco exe -o $(PWD)/dst/bar src/bar.rkt
 .PHONY: build-bar
 
-build: build-bar
+build-sofa:
+	raco exe -o $(PWD)/dst/sofa src/sofa.rkt
+.PHONY: build-sofa
+
+build: build-bar build-sofa
 .PHONY: build
 
 clean:
