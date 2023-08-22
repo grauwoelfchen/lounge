@@ -4,7 +4,7 @@ setup:
 .PHONY: setup
 
 test:
-	@raco test --direct test/test.rkt
+	@raco test --quiet --direct test/test.rkt
 .PHONY: test
 
 build-bar:
