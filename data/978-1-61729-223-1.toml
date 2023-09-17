@@ -1,7 +1,21 @@
 [book]
 title = "Grokking Algorithms"
 isbn = "978-1-61729-223-1"
+edition = 1
 total_page_numbers = 233
+format = "print"
+
+[book.reading_approach]
+number_of_times = 2
+order = "sequential"
+
+[book.status]
+is_focused = false
+is_finished = false
+
+[[book.updates]]
+read_up_to = 114
+updated_at = 2023-09-17T16:25:45
 
 [[book.updates]]
 read_up_to = 72
