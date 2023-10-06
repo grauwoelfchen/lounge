@@ -1,6 +1,6 @@
 # after pkg install, raco will setup
 setup:
-	@raco pkg install --pkgs --fail-fast
+	@raco pkg install --deps search-auto --skip-installed --fail-fast
 .PHONY: setup
 
 test:
