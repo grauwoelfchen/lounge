@@ -19,5 +19,7 @@ build: build-bar build-sofa
 .PHONY: build
 
 clean:
+	@raco pkg empty-trash
+	@rm -fr $(PWD)/{,src/}compiled
 	@rm -f $(PWD)/dst/bar
 .PHONY: clean
