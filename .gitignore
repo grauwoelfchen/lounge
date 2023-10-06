@@ -1,4 +1,4 @@
 .autoenv
-dst/bar
+dst/*
 
 compiled/
