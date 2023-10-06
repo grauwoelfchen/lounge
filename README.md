@@ -14,6 +14,13 @@ Tools and data of my book reading logs.
 * Racket
 
 
+## Setup
+
+```zsh
+# install dependencies
+% make setup
+```
+
 ## Build
 
 ```zsh
