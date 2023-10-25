@@ -1,0 +1,18 @@
+[book]
+title = "Zero To Production In Rust"
+isbn = "979-8-8472-143-7"
+edition = 1
+total_page_numbers = 564
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
+
+[[book.updates]]
+read_up_to = 7
+updated_at = 2023-10-25T23:19:58
