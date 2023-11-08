@@ -1,0 +1,18 @@
+[book]
+title = "Tom's Midnight Garden"
+isbn = "978-0-19-273450-1"
+edition = 1
+total_page_numbers = 227
+format = "print"
+
+[book.reading_approach]
+number_of_times = 1
+order = "sequential" # or random
+
+[book.status]
+is_focused = true
+is_finished = false
+
+[[book.updates]]
+read_up_to = 22
+updated_at = 2023-11-08T03:23:43
