@@ -14,6 +14,10 @@ is_focused = true
 is_finished = false
 
 [[book.updates]]
+read_up_to = 218
+updated_at = 2023-12-14T04:27:15
+
+[[book.updates]]
 read_up_to = 205
 updated_at = 2023-11-23T20:47:16
 
